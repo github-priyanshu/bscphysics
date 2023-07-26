@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 200vh;
+  font-family:"poppins";
+  background: #f1f1ff;
+}
+
+/* Top Header */
+.top-header {
+  background-color: white;
+  padding: 11px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 5px 20px #0002;
+}
+
+.logo-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  margin-right: 20px;
+}
+
+.sign-in-button {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* List of Courses */
+.course-list {
+  padding: 20px;
+  width: 100%;
+  margin: 0px;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+
+.course-item {
+  margin: 40px 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 90%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 20px #0002;
+}
+
+.course-image {
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.course-details {
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* About Us Section */
+.about-us {
+  background: radial-gradient(ellipse at 50% 80%, #ffcef5,#ffefd6);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Social Links */
+.social-links {
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icon {
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 700px){
+  .menu .menu-item{
+    display: none;}
+}
